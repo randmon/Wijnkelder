@@ -39,7 +39,7 @@
                         <td>${w.jaartal}</td>
                         <td>${w.prijs}</td>
                         <td>${w.omschrijving}</td>
-                        <td><a href="Servlet?command=verwijderBevestig&naam=${w.naam}">X</a></td>
+                        <td><a href="Servlet?command=verwijderBevestig&naam=${w.formattedNaam}">X</a></td>
                     </tr>
                 </c:forEach>
                 </tbody>

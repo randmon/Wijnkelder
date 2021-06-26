@@ -7,6 +7,7 @@ import java.time.LocalDate;
 public class Wijn {
 
     private String naam;    // naam van de wijn
+    private String formattedNaam; // naam van wijn maar met "%20" ipv spaties
     private String soort;   // soort wijn
     private int jaartal;
     private double prijs;   // kostprijs
@@ -32,6 +33,11 @@ public class Wijn {
         if (naam == null || naam.trim().isEmpty())
             throw new DomainException("De naam van de wijn is niet ingevuld");
         this.naam = naam;
+        this.formattedNaam = naam.replace(" ", "%20");
+    }
+
+    public String getFormattedNaam() {
+        return formattedNaam;
     }
 
     public String getSoort() {
