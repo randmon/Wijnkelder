@@ -31,7 +31,7 @@
             We tonen je alle wijnen van het gegeven jaartal.</p>
         <form action="Servlet?command=zoek" method="GET" novalidate>
             <label for="jaartal">Gezochte jaartal:</label>
-            <input class="inputNaastLabel" id="jaartal" name="jaartal" type="number" value="${vorigeJaartal}"> <br><br>
+            <input class="inputNaastLabel" id="jaartal" name="jaartal" type="number" value="${jaartal}"> <br><br>
             <input type="hidden" name="command" value="zoek">
             <input type="submit" value="Zoek" id="zoek">
         </form>

@@ -30,7 +30,7 @@
     <c:if test="${not empty gemiddelde}">
         <section>
             <h3>Gemiddelde prijs</h3>
-            <p>Het gemiddelde prijs van alle wijnen is - ${gemiddelde}€</p>
+            <p>De gemiddelde prijs van alle wijnen is ${gemiddelde}€</p>
         </section>
         <section>
             <h3>Duurste fles</h3>

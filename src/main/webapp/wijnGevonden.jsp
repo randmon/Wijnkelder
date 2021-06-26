@@ -15,7 +15,7 @@
     </jsp:include>
     <main>
         <h2>Wijnen gevonden</h2>
-        <p>We hebben volgende wijnen van jaartal <em>${jaartal}</em>:</p>
+        <p>We hebben volgende wijnen van jaartal <b>${jaartal}</b>:</p>
         <div class="horizontalScroll">
         <table>
             <thead>

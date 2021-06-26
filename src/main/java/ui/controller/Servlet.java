@@ -178,7 +178,7 @@ public class Servlet extends HttpServlet {
 
     private String zoek(HttpServletRequest request, HttpServletResponse response) {
         String jaartal = request.getParameter("jaartal");
-        request.setAttribute("vorigeJaartal", jaartal);
+        request.setAttribute("jaartal", jaartal);
         try {
             ArrayList<Wijn> wijnen = wijnDB.vindWijnenVanJaartal(jaartal);
             request.setAttribute("wijnen", wijnen);
