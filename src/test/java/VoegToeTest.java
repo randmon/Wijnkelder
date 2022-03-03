@@ -11,7 +11,7 @@ import java.util.List;
 
 public class VoegToeTest {
     private WebDriver driver;
-    private String url = "http://localhost:8080/Wijnkelder_war_exploded/voegToe.jsp";
+    private final String url = "http://localhost:8080/Wijnkelder_war_exploded/voegToe.jsp";
 
     @Before
     public void init() {
